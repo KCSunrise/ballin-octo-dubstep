@@ -16,5 +16,8 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Good luck!
+Procedure for the Project:
+download compressed raw data
+unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
+open a R console and set the working directory to the repository root (use setwd())
+source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
